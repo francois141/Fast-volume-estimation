@@ -1,0 +1,16 @@
+# started on Sat Jun  3 19:34:41 2023
+
+
+ Performance counter stats for '../build/PolyVestAlgoOpt ../benchmark_infrastructure/cubes/cube_45 1600':
+
+    10,628,899,658      r5301c7                                                               
+        99,375,499      r5304c7                                                               
+     2,185,571,641      r5310c7                                                               
+                 0      r5340c7                                                               
+
+      14.035120308 seconds time elapsed
+
+      13.981909000 seconds user
+       0.003977000 seconds sys
+
+

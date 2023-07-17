@@ -1,0 +1,10 @@
+initial optimization plan:
+- loop unrolling and scalar replacement
+- constant replacement
+- math replacement (replace expensive operations with less costy ones)
+- common subexpression replacement
+- function inline
+
+
+- blocking
+- vectorization

@@ -1,0 +1,11 @@
+--------------- PolyVest, but faster ----------------
+=========================================
+Hyperplanes Left: 4
+ counter * {{ M * N adds, M * N mults} { M adds } { N * N adds, N * N  mults }
+{ N * N adds, N * N mults } {N * N adds, N * N mults } { N divs, 1 sqrt} { N mults} { N adds} { N * N adds, N * N mults } { N * N mults} { N * N adds } { N * N mults } }
+
+ counter * {{ M * N adds, M * N mults} { M adds } { N * N adds, N * N  mults }
+{ N * N adds, N * N mults } }
+
+{ N ^ 3 flops}{ M * N + M adds, M * N + M mults } {M * N * N adds, M * N * N mults } N * {{ M divs } { M * N adds, M * N mults}  { M * N divs } }N * {{ M divs } { M * N adds, M * N mults}  { M * N divs } } { N mults } 
+Estimated volume: 3.991019

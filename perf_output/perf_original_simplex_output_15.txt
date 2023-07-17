@@ -1,0 +1,16 @@
+# started on Thu May  4 11:15:21 2023
+
+
+ Performance counter stats for '../build/PolyVestCpp ../examples/simplex/simplex_15 1600':
+
+     1,006,150,137      r5301c7:u                                                             
+         3,705,103      r5304c7:u                                                             
+        18,941,982      r5310c7:u                                                             
+                 0      r5340c7:u                                                             
+
+       0.633755510 seconds time elapsed
+
+       0.629569000 seconds user
+       0.001986000 seconds sys
+
+

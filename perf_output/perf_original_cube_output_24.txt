@@ -1,0 +1,16 @@
+# started on Thu May  4 11:12:27 2023
+
+
+ Performance counter stats for '../build/PolyVestCpp ../benchmark_infrastructure/cubes/cube_24 1600':
+
+    23,714,887,911      r5301c7:u                                                             
+        20,113,365      r5304c7:u                                                             
+       241,351,092      r5310c7:u                                                             
+                 0      r5340c7:u                                                             
+
+      11.130245865 seconds time elapsed
+
+      11.090825000 seconds user
+       0.002976000 seconds sys
+
+

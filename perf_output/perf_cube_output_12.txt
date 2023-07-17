@@ -1,0 +1,16 @@
+# started on Wed May  3 19:04:26 2023
+
+
+ Performance counter stats for '../build/PolyVestFast ../benchmark_infrastructure/cubes/cube_12 1600':
+
+        88,296,671      r5301c7:u                                                             
+        99,087,219      r5304c7:u                                                             
+       233,910,384      r5310c7:u                                                             
+                 0      r5340c7:u                                                             
+
+       0.295922751 seconds time elapsed
+
+       0.293282000 seconds user
+       0.001995000 seconds sys
+
+

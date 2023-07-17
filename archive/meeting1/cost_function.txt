@@ -1,0 +1,52 @@
+1.
+N * logN * step_size * M * N adds
+N * logN * step_size * M * N mults
+N * logN * step_size sqrt
+N * logN * step_size * M mins
+N * logN * step_size * 2 logs
+N * logN  pows
+N * logN * N divs
+
+2.
+N * logN pows
+N * logN * N divs
+
+3.
+N * logN * step_size * M * N adds
+N * logN * step_size * M * N mults
+N * logN * step_size sqrt
+N * logN * step_size * M mins
+N * logN * step_size * 2 logs
+N * logN  pows
+N * logN * N divs
+
+4.
+N * logN * step_size * M * N adds
+N * logN * step_size * M * N mults
+N * logN * step_size sqrt
+N * logN * step_size * M mins
+N * logN * step_size * 2 logs
+N * logN  pows
+N * logN * N divs
+
+Total:
+3N * logN * step_size * M * N adds => 3N^3 (logN)^2 * M adds
+3N * logN * step_size * M * N mults => 3N^3 (logN)^2 * M mults
+3N * logN * step_size sqrt => 3N^2 (logN)^2 sqrts
+3N * logN * step_size * M mins => 3N^2 (logN)^2 * M mins
+6N * logN * step_size logs => 6N^2 (logN)^2 logs
+4N logN pows => 4N logN pows
+4N logN N divs => 4N^2 logN divs
+
+step_size = 1600 * N logN
+
+---
+preprocess:
+counter * N * (M + N) + M * N * N adds, counter < N
+counter * M * N * N mults
+M * N divs
+counter sqrt
+N ^ 3 flops from cholesky
+---
+check halfplanes
+M^2 N ??

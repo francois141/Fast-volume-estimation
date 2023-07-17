@@ -1,0 +1,16 @@
+# started on Wed May  3 19:05:02 2023
+
+
+ Performance counter stats for '../build/PolyVestFast ../examples/simplex/simplex_35 1600':
+
+     3,141,244,786      r5301c7:u                                                             
+     3,807,893,925      r5304c7:u                                                             
+     8,834,622,421      r5310c7:u                                                             
+                 0      r5340c7:u                                                             
+
+       7.171904996 seconds time elapsed
+
+       7.135351000 seconds user
+       0.006933000 seconds sys
+
+
